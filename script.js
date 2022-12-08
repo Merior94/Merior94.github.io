@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'http://93.180.179.200:8080/v1/tasks';
+  var apiRoot = 'https://93.180.179.200:8080/v1/tasks';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
